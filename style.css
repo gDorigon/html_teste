@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(153, 152, 152);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bordao{
+
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+    color: #660099;
+}
+
+.bordao1{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial;
+    color: #000000;
+}
+
+.text1{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial;
+    color: #000000;
+}
+
+.transportes{
+    align-items: center;
+    padding: 30px;
+}
+
+.text2{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial;
+    color: #000000;
+}
