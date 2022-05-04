@@ -3,15 +3,22 @@
     margin: 0;
 }
 
-header{
+nav{
     width: 100%;
     background-color: rgb(153, 152, 152);
     display: flex;
     justify-content: space-between;
 }
 
-.bordao{
+.menu{
+    display: flex;
+}
 
+.empresa{
+    padding-left: 20px;
+}
+
+.bordao{
     font-size: 40px;
     text-align: center;
     font-family: sans-serif;
@@ -47,4 +54,10 @@ header{
     font-family: Arial;
     color: #000000;
     
+}
+
+#nomes_transportes{
+    text-align: center;
+    font-size: 20px;
+    color: #660099;
 }

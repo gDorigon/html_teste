@@ -1,33 +1,38 @@
+<!--
+    Usar table nos veiculos
+    para por o nome do mesmo em baixo 
+
+
+-->
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <link rel="styleSheet" href="/style.css">
+        <link rel="styleSheet" href="/Aula_1/style.css">
         <title>Vivo - Plano de Saúde</title>
-    
-        <style>
-
-        </style>
     
     </head>
 
-    <header>
+    <nav>
         <div class="cabecalho">
             <div class="logo"></div>
             <div class="empresa">
-                <img src="/vivo.png" alt="logo-vivo" height="50px" width="110px"/>
+                <img src="/Aula_1/vivo.png" alt="logo-vivo" height="50px" width="110px"/>
             </div>
         </div>
             <div class="menu">
                 <ul>
-                    <li><a href="/produtos.html">Planos</a></li>
+                    <li><a href="/Aula_1/produtos.html">Planos</a></li>
                     <li><a href="#">Contato ( Soon )</a></li>
                     <li><a href="#">Sobre ( Soon )</a></li>
                 </ul>
 
             </div>  
 
-    </header> 
+        </nav> 
 
     <body>
 
@@ -44,18 +49,23 @@
         </div>
 
         <div class="transportes">
-            <center>
-            <img src="IMAGENS/ambulancia.jpg" alt="vivolancia" width="400" height="300">
-            <img src="IMAGENS/firetruck.jpg" alt="vivosemfogo" width="400" height="300">
-            <img src="IMAGENS/jdm_uno.jpg" alt="vivuno" width="400" height="300">
-            <img src="IMAGENS/vivocoptero.jpg" alt=vivocoptero"" width="400" height="300">
-            </center>
-        </div>
-
-        <div class="text2">
-            <center>
-           <h2><span style="color:#660099;">VIVOLância </span>,<span style="color:#660099;">VIVÔnibus </span>,<span style="color:#660099;">VIVuno </span> e o <span style="color:#660099;">VIVOcóptero</span> vão estar totalmente a sua disposição independente do dia e hora. </h2>
-            </center>
+            <table>
+                    <tr>
+                        <td><img src="IMAGENS/ambulancia.jpg" alt="vivolancia" width="400" height="300"></td>
+                        <td><img src="IMAGENS/firetruck.jpg" alt="vivosemfogo" width="400" height="300"></td>
+                        <td><img src="IMAGENS/jdm_uno.jpg" alt="vivuno" width="400" height="300"></td>
+                        <td><img src="IMAGENS/vivocoptero.jpg" alt=vivocoptero"" width="400" height="300"></td>
+                    </tr>
+                    
+                    <div id="nomes_transportes">
+                        <tr>
+                            <td> VIVOLANCIA</td>
+                            <td> VIVOTRUCK</td>
+                            <td> VIVUNO</td>
+                            <td> VIVOCOPTERO</td>
+                        </tr>
+                    </div>  
+            </table>
         </div>
 
     </body>
