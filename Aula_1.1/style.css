@@ -1,52 +1,69 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-nav{
+nav {
     width: 100%;
-    background-color:#01571429;
-    display:flex;
+    background-color: #003b013e;
+    display: flex;
     flex-direction: row;
     padding: 5px;
-
 }
 
-.nav-itens{
+
+.nav-itens {
     flex: 1 1 auto;
     flex-direction: row;
     display: flex;
 }
 
-body{
+#ul-nav {
+    padding-right: 30px;
+    height: 100%;
+    align-items: center;
+    margin-left: auto;
+    display: flex;
+
+}
+
+.nav-link{
+    padding: 15px;
+}
+
+#li-nav {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+}
+
+
+body {
     background-color: black;
 }
 
-a{
+a {
+
     color: rgba(0, 255, 13, 0.836);
     text-decoration: none;
 }
 
 
-.fundo1{
+.fundo1 {
     opacity: 0.5;
 }
 
-#ul-nav{
-    padding-right: 20px;
-    height: 100%;
-    align-items: center;
-    list-style-type: none;
-    margin-left: auto;
-    display: flex;
+
+.texto-main {
+    font-family: arial;
+    margin-top: 240px;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 300px;
+
 }
 
-#li-nav{
-    padding: 10px;
-    display: flex;   
-}
-
-.texto-main{
+.texto2 {
     font-family: arial;
     margin-top: 300px;
     font-size: 50px;
@@ -55,66 +72,66 @@ a{
 
 }
 
-.texto2{
-    font-family: arial;
-    margin-top: 300px;
-    padding-bottom: 200px;
+.super-string {
+
+    color: rgb(0, 181, 6);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 
 }
 
-.super-string{
-
-  color: rgb(0, 181, 6);
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-
-}
-  
-  @-webkit-keyframes glow {
+@-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px rgba(4, 255, 0, 0.068), 0 0 20px rgba(0, 255, 8, 0.183), 0 0 30px #009e25, 0 0 40px #00a91f81, 0 0 50px #00900c, 0 0 60px #005317, 0 0 70px #00c11aa4;
+        text-shadow: 0 0 10px rgba(4, 255, 0, 0.068), 0 0 20px rgba(0, 255, 8, 0.183), 0 0 30px #009e25, 0 0 40px #00a91f81, 0 0 50px #00900c, 0 0 60px #005317, 0 0 70px #00c11aa4;
     }
-    to {
-      text-shadow: 0 0 20px rgb(2, 47, 0), 0 0 30px #022700, 0 0 40px #002d12, 0 0 50px #001906, 0 0 60px #00230c, 0 0 70px #005c0e, 0 0 80px #00911d;
-    }
-  }
 
-.tebela-equipe{
-    padding: 50px;
+    to {
+        text-shadow: 0 0 20px rgb(2, 47, 0), 0 0 30px #022700, 0 0 40px #002d12, 0 0 50px #001906, 0 0 60px #00230c, 0 0 70px #005c0e, 0 0 80px #00911d;
+    }
+}
+
+.tebela-equipe {
+
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
 }
 
+.membro {
+    font-family: arial;
+    font-size: 50px;
+    color: white;
+}
 
-.membro * img{
+.membro * img {
     border-radius: 5%;
 }
 
-.membro-dorigas{
+.membro-dorigas {
+
     padding: 50px;
     border: 2px solid #00911d;
     border-radius: 5%;
     text-align: center;
 }
 
-.membro-carlao{
+.membro-carlao {
     padding: 50px;
     border: 2px solid #00911d;
     border-radius: 5%;
     text-align: center;
 }
 
-.membro-caio{
+.membro-caio {
     padding: 50px;
     border: 2px solid #00911d;
     border-radius: 5%;
     text-align: center;
 }
 
-.membro-lucas{
+.membro-lucas {
     padding: 50px;
     border: 2px solid #00911d;
     border-radius: 5%;
