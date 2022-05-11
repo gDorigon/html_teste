@@ -32,6 +32,7 @@ nav {
 }
 
 #li-nav {
+    font-family: arial;
     list-style-type: none;
     padding: 10px;
     display: flex;
@@ -65,10 +66,10 @@ a {
 
 .texto2 {
     font-family: arial;
-    margin-top: 300px;
+    margin-top: 280px;
     font-size: 50px;
     color: white;
-    margin-bottom: 300px;
+    margin-bottom: 280px;
 
 }
 
@@ -136,4 +137,16 @@ a {
     border: 2px solid #00911d;
     border-radius: 5%;
     text-align: center;
+}
+
+
+.texto-equipe{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: arial;
+    color: white;
+    
 }
