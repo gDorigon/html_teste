@@ -4,8 +4,10 @@
 }
 
 nav {
+    position: fixed;
+    top: 0;
     width: 100%;
-    background-color: #003b013e;
+    background-color: #001100;
     display: flex;
     flex-direction: row;
     padding: 5px;
@@ -13,6 +15,7 @@ nav {
 
 
 .nav-itens {
+
     flex: 1 1 auto;
     flex-direction: row;
     display: flex;
@@ -150,3 +153,6 @@ a {
     color: white;
     
 }
+
+    /*-------------------------------------------------------- */
+
