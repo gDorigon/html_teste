@@ -30,7 +30,7 @@ nav {
 
 }
 
-.nav-link{
+.nav-link {
     padding: 15px;
 }
 
@@ -45,6 +45,9 @@ nav {
 body {
     background-color: black;
 }
+
+
+  
 
 a {
 
@@ -143,7 +146,7 @@ a {
 }
 
 
-.texto-equipe{
+.texto-equipe {
     padding-left: 50px;
     padding-right: 50px;
     font-size: 30px;
@@ -151,8 +154,7 @@ a {
     padding-bottom: 50px;
     font-family: arial;
     color: white;
-    
+
 }
 
-    /*-------------------------------------------------------- */
-
+/*-------------------------------------------------------- */

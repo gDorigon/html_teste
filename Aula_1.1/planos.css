@@ -141,4 +141,7 @@ body {
     padding-left: 20px;
     font-family: Arial;
     color: rgba(0, 255, 13, 0.836);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
 }
