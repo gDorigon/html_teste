@@ -1,0 +1,40 @@
+.alinhamento{
+    display: flex;
+    width: 100px;
+}
+
+h1 {
+    color: rgb(94, 0, 202);
+    font-family: Arial;
+}
+
+.hora{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.min{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.sec{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botao-start{
+    color: rgb(0, 182, 0);
+}
+
+.botao-pause{
+    color: rgb(165, 168, 0);
+}
+
+.botao-reset{
+    color: rgb(255, 0, 0);
+}
+
+
+
