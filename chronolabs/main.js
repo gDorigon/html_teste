@@ -40,7 +40,7 @@ botao.onclick = () => {
             botao.classList.remove("botao-start");
             botao.classList.add("botao-pause");
             botao.innerHTML = "STOP"
-        break;
+            break;
 
         case 2:
             clearInterval(temp);
@@ -48,7 +48,7 @@ botao.onclick = () => {
             botao.classList.remove("botao-pause");
             botao.classList.add("botao-reset");
             botao.innerHTML = "RESET"
-        break;
+            break;
 
 
         case 3:
@@ -56,15 +56,15 @@ botao.onclick = () => {
             vMin = 0;
             vHora = 0;
             flag = 0;
-            
+
             sec.innerHTML = vSec;
             min.innerHTML = vMin;
             hora.innerHTML = vHora;
-            
+
             botao.classList.remove("botao-reset");
             botao.classList.add("botao-start");
             botao.innerHTML = "START"
-        break;
+            break;
 
     }
 
