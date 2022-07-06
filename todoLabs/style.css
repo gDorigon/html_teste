@@ -6,23 +6,81 @@
     outline: none;
 }
 
-#title{
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#title {
     font-family: Arial;
 }
 
-#textbox{
+#add-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#textbox {
     border: 1px solid rgb(0, 0, 0);
     width: 200px;
     height: 20px;
 }
 
-#add{
-    
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+#add {
+    width: 20px;
+    height: 20px;
+    background-color: #222;
+    color: #fff;
 }
 
-.itens{
+.itens {
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+
+#tarefa {
+
+    align-items: left;
+    flex-wrap: nowrap;
+
+}
+
+#texto-tarefa{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#remover-item {
+    width: 15px;
+    height: 15px;
+    background-color: #222;
+    color: #fff;
+}
+
+.metas{
+    display: flex;
+    flex-direction: column;
+}
+
+#t_c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#t_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
