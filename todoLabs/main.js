@@ -1,46 +1,65 @@
-async function apiCreateTask(description, complete) {
-    const url = 'http://localhost:3000/tasks'
-    const newTask = { description, complete }
+async function apiCreateTask (description, complete){
+
+    const newTask = {description, complete}
+
+
+    const url = 'http://localhost:3000/tasks';
     const options = {
-        method: 'POST',
-        headers: {
+        method: "POST",
+        headers:{
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(newTask)
     }
-
     const response = await fetch(url, options);
+
 
     return await response.json();
 }
 
+async function apiGetTasks(){
+    const url = 'http://localhost:3000/tasks';
+    const response = await fetch(url);
+    return await response.json();
+}
 
+async function apiUpdateTask(id, task){
 
-async function apiUpdateTask(id) {
-    const url = 'http://localhost:3000/tasks/' + id
-    const taskPut = {description: "task before PUT", complete: true}
-    
-    const options = {
-        method: 'PUT',
-        headers: {
+    const url = `http://localhost:3000/tasks/${id}`;
+    fetch (url, {
+       method: "PUT",
+        headers:{
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(taskPut)
-    }
+        body: JSON.stringify(task)
+    })
 
-    const response = await fetch(url, options);
-    return await response.json();
-    
+
+} 
+
+
+
+async function apiDeleteTask(id){
+
+    const url = `http://localhost:3000/tasks/${id}`
+    fetch (url, {
+       method: "DELETE",
+        headers:{
+            'Content-Type': 'application/json'
+        },
+
+    })
+
 }
+ 
+// apiCreateTask("DAVIZAO", true);
 
-async function apiDeleteTask(id) {
-    const url = 'http://localhost:3000/tasks'
-    
-}
+apiGetTasks();
 
-async function apiGetTask() {
-}
+apiUpdateTask(116, {
+    description: "Dorigas",
+    complete: true,
 
+})
 
-apiCreateTask("task after PUT", false);
-apiUpdateTask(30)
+// apiDeleteTask(62)
