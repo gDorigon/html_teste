@@ -22,35 +22,40 @@
         </div>
 
 
-        <div class="itens">
-            <div>
-                <input type="checkbox" id="tarefa">
-                <label id="texto-tarefa"> Ir no mercado </label>
+        <div id="lista">
+
+            <div class="itens">
+                <div>
+                    <input type="checkbox" class="checkbox-tarefa">
+                    <label class="texto-tarefa"> Ir no mercado </label>
+                    <button class="remover-tarefa"> - </button>
+                </div>
             </div>
-            <div>
-                <button id="remover-item"> - </button>
-            </div>
-            
+
         </div>
 
-        <label id="barra"> </label>
 
-        <div class="metas">
+            <label id="barra"> </label>
 
-            <div id="t_c">
-                <h5>Tarefas concluidas:</h5>
-                <h5 id="concluidas"> 1 </h5>
+            <div class="metas">
+
+                <div id="t_c">
+                    <h5>Tarefas concluidas:</h5>
+                    <h5 id="concluidas"> 0 </h5>
+                </div>
+
+                <div id="t_p">
+                    <h5> Tarefas pendentes: </h5>
+                    <h5 id="pendentes"> 1 </h5>
+                </div>
             </div>
 
-            <div id="t_p">
-                <h5> Tarefas pendentes: </h5>
-                <h5 id="pendentes"> 1 </h5>
-            </div>
         </div>
 
-    </div>
+
 
 </body>
 
 <script type="text/javascript" src="main.js"></script>
+
 </html>
