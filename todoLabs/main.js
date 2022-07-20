@@ -49,8 +49,7 @@ async function apiDeleteTask(id) {
 //     complete: true,
 // })
 
-
-const addElement = querySelector("#add");
+const addElement = document.querySelector("#add");
 addElement.onclick = async => {
     
     console.log("teste")
